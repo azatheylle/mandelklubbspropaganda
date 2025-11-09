@@ -43,6 +43,18 @@ section {
 	margin-bottom: 1em;
 }
 
+/* Personbilder lika stora */
+.baker-img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border: 4px solid #b80000;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+    background: #fff8e1;
+}
+
+/* Existing styles below */
 .image-placeholder {
 	background: #ffd60033;
 	border: 3px dashed #b80000;
@@ -105,6 +117,7 @@ section {
 	margin-top: 1em;
 	box-shadow: 0 4px 12px #b8000055;
 	transition: background 0.2s;
+	border: none;
 }
 .big-button:hover {
 	background: #ff3333;
